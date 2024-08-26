@@ -1,0 +1,158 @@
+.center-page {
+    overflow-y: scroll;
+    height: 100%;
+    width:50%;
+  }
+  
+  .header {
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 16px 32px;
+    border-bottom: 2px solid #e0e0e0;
+    
+  }
+  
+  .header-title {
+    font-size: 1.125rem;
+    color: #000;
+  }
+  
+  .header-subtitle {
+    font-size: 0.875rem;
+    color: #343A40B2;
+  }
+  
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .header-action {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    background-color: #fff;
+    border: 1px solid #343A40;
+    border-radius: 6px;
+    font-size: 0.875rem;
+    color: #000;
+  }
+  
+  .yellow-dot {
+    color: #ffeb3b;
+    font-size: 1.25rem;
+  }
+  
+  .timeline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
+    position: relative;
+   
+  }
+  
+  .timeline-line {
+    width: 100%;
+    height: 2px;
+    background-color: #e0e0e0;
+   
+  }
+  
+  .timeline-label {
+    position: absolute;
+    background-color: #e0e0e0;
+    padding: 4px 8px;
+    font-size: 0.875rem;
+    color: #000;
+   
+  }
+  
+  .mail-list {
+    padding: 0 32px;
+   
+  }
+  
+  .mail-item {
+    background-color: #fff;
+    border: 1px solid #343A40;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    
+  }
+  
+  .mail-content {
+    padding: 16px;
+  }
+  
+  .mail-header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 16px;
+  }
+  
+  .mail-info {
+    gap: 8px;
+  }
+  
+  .mail-subject {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .mail-from,
+  .mail-to,
+  .mail-date {
+    font-size: 0.875rem;
+    color: #637381;
+  }
+  
+  .mail-body {
+    padding-top: 16px;
+    color: #172B4D;
+  }
+  
+  .reply-button {
+    
+    bottom: 16px;
+    left: 32px;
+    background-color: #4B63DD;
+    border-radius: 6px;
+    padding: 8px 16px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+   
+    width:80px;
+    margin-left:25px;
+  }
+  
+  .reply-icon {
+    margin-right: 8px;
+  }
+  
+  .timeline-expand {
+    display: flex;
+    font-size: 0.875rem;
+    color: #000;
+    background-color: #e0e0e0;
+    padding: 4px 8px;
+    border-radius: 6px;
+  
+    width:140px;
+    margin-left:450px;
+    margin-top:10px;
+    margin-bottom:5px;
+  }
+  
+  .expand-icon {
+    margin-right: 8px;
+    color: #aeaeae;
+  }
+  
+  .highlight {
+    color: #4B63DD;
+  }

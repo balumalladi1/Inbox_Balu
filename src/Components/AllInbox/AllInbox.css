@@ -1,0 +1,124 @@
+.inbox-container {
+    border-right: 2px solid #e0e0e0;
+    background-color: #fafafa;
+    height: 100%;
+    overflow-y: scroll;
+  }
+  
+  .inbox-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+  }
+  
+  .inbox-title {
+    font-size: 24px;
+    color: #4285f4;
+    font-weight: bold;
+  }
+  
+  .inbox-dropdown-icon {
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  
+  .inbox-count {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .reload-icon {
+    cursor: pointer;
+  }
+  
+  .search-bar {
+    position: relative;
+  }
+  
+  .search-input {
+    width: 70%;
+    padding: 8px 32px;
+    border-radius: 4px;
+    border: 1px solid #dfe3e8;
+    background-color: #f4f6f8;
+  }
+  
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    left: 8px;
+    transform: translateY(-50%);
+    color: #888;
+  }
+  
+  .inbox-stats {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+  }
+  
+  .new-replies {
+    background-color: #ececec;
+    color: #5c7cfa;
+    padding: 4px 8px;
+    border-radius: 24px;
+    font-size:10px;
+  }
+  
+  .sort-dropdown {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .inbox-list {
+    padding: 16px;
+  }
+  
+  .mail-item {
+    border-top: 2px solid #8b8b8b64;
+    padding: 16px;
+    cursor: pointer;
+    width:85%;
+  }
+  
+  .mail-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .mail-from {
+    font-size: 18px;
+    color: #000;
+  }
+  
+  .mail-date {
+    color: #919eab;
+  }
+  
+  .mail-subject {
+    padding: 8px 0;
+    color: #666;
+  }
+  
+  .mail-tags {
+    display: flex;
+  }
+  
+  .tag {
+    background-color: #f0f0f0;
+    padding: 8px 16px;
+    border-radius: 16px;
+    margin-right: 4px;
+    display: flex;
+    align-items: center;
+    font-size:10px;
+  }
+  
+  .tag-interested {
+    color: #57e0a6;
+  }
+  
+  .tag-campaign {
+    color: #000;
+  }
