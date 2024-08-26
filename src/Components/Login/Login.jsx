@@ -7,7 +7,7 @@ const Login = () => {
 
   const handleGoogleLogin = () => {
     // Redirecting to Google login
-    window.location.href = "https://hiring.reachinbox.xyz/api/v1/auth/google-login?redirect_to=https://papaya-frangollo-e78355.netlify.app";
+    window.location.href = "https://hiring.reachinbox.xyz/api/v1/auth/google-login?redirect_to=https://papaya-frangollo-e78355.netlify.app/token-handler";
   };
 
   return (
